@@ -1,0 +1,14 @@
+- [ ] Update Leave Data Models
+    - [ ] `LeaveApplyRequest.kt`: rename fields
+    - [ ] `LeaveBalanceItem.kt`: verify fields
+- [ ] Align `EmsApiService.kt` endpoints
+    - [ ] Update `applyLeave` path
+    - [ ] Update `getLeaveHistory` query params
+- [ ] Refine ID Extraction Logic
+    - [ ] Update `DualLoginRepository.kt`
+    - [ ] Update `LoginViewModel.kt`
+- [ ] Implement Balance Mapping in `LeaveViewModel.kt`
+    - [ ] Map List<LeaveBalanceApiItem> to summary object
+- [ ] Verification
+    - [ ] Check logs for dual IDs
+    - [ ] Verify dashboard display
